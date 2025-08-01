@@ -10,7 +10,7 @@ const authRoutes = require('./routes/authRoutes')
 const app = express();
  
   app.use(cors({                            
-    origin: 'https://frontend-portal-turismo.vercel.app/', // utilizar o link da vercel de vocês        
+    origin: 'https://frontend-portal-turismo.vercel.app', // utilizar o link da vercel de vocês        
     methods: ['GET','POST','PUT','DELETE'],
     credentials: true
   }));
